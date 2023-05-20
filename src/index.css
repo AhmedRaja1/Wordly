@@ -1,0 +1,31 @@
+/* Poppins Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: poppins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.accordion-item {
+  background-color: #FFC107;
+}
+
+.accordion-button{
+  background-color: #FFC107;
+}
+.accordion-body {
+  background-color: #FFC107;
+}
+
+.form-control:focus {
+  border-color: #FFC107;
+  box-shadow: inset 0 5px 5px rgba(208, 204, 204, 0), 0 0 30px #FFC107;
+}
